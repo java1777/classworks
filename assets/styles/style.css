@@ -1,0 +1,61 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f6f5f4;
+}
+
+.wrapper {
+  width: 1156px;
+  margin: auto;
+}
+
+.open-ai {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.open-ai-info {
+  display: inline-block;
+}
+
+.open-ai-info > p {
+  font-size: 32px;
+}
+.open-ai-img {
+  display: inline-block;
+  float: right;
+}
+
+.open-ai-img > img {
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.open-ai-img > img:hover {
+  opacity: 0.9;
+}
+
+#full-s {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #0075de;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  border: 2px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
+}
